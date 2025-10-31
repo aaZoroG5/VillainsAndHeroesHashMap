@@ -12,6 +12,7 @@ public class SuperHero extends SuperPerson{
 
     @Override
     public void fight(SuperPerson opponent){
+        System.out.println("-------------------------------------------------------------------");
         //generate a random number of damage
         Random random = new Random();
         //return a whole number from 0-100
@@ -19,15 +20,19 @@ public class SuperHero extends SuperPerson{
 
         int totalDamage = baseDamage + this.experiencePts;
 
+        logHit(opponent);
+        printBattleLog();
+        System.out.println();
+
         if(baseDamage == 0){
             System.out.println(this.getName() + " swings heroically and misses!");
+            System.out.println(opponent.getName() + "'s health: " + opponent.getHealth());
         }
         else{
             System.out.println(this.getName() + " lands a super punch on " + opponent.getName() + " and caused " + totalDamage + " damage!");
             //make the opponent take damage
             opponent.takeDamage(totalDamage);
-            logHit(opponent);
-            printBattleLog();
+            System.out.println(opponent.getName() + "'s health: " + opponent.getHealth());
         }
     }
 }

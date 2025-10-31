@@ -10,7 +10,7 @@ public abstract class SuperPerson {
     protected int experiencePts;//NOTE: we made the properties "protected" so the child classes can access them
 
     //add a hash map called battleLog
-    HashMap<String, Integer> battleLog = new HashMap<>();
+    public HashMap<String, Integer> battleLog = new HashMap<>();
 
     //create the class constructor
     public SuperPerson(String name, int health) {
@@ -68,16 +68,17 @@ public abstract class SuperPerson {
     }
 
     //add log hit method and print battle method using the hashmap
-    public void logHit(SuperPerson oppenent){
-        String name = oppenent.name;//debug
+    public void logHit(SuperPerson opponent){
+        String name = opponent.name;//debug
         int count = battleLog.getOrDefault(name, 0); //what does the getOrDefault() do?
         battleLog.put(name, count + 1);
     }
 
     public void printBattleLog(){
-        System.out.println("Battle log for " + name + ":");
+        System.out.println("Battle Log for " + this.name);
         for(Map.Entry<String, Integer> entry : battleLog.entrySet()){//lookup these new methods used
-            System.out.println(" - Hit " + entry.getKey() + ": " + entry.getValue() + " times");
+            System.out.println("Round: " + entry.getValue() + "\n" + entry.getKey() + " was damaged!");
         }
+        System.out.println(battleLog.size());//checking to see the number of elements in the hash map
     }
 }

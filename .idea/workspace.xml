@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b966b14-4259-4249-9a8b-11849780075b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/ShowdownApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/SuperHero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/SuperPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/SuperVillain.java" afterDir="false" />
+    <list default="true" id="1b966b14-4259-4249-9a8b-11849780075b" name="Changes" comment="created a hashmap that logs rounds of a fight">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/ShowdownApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/ShowdownApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/SuperHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/SuperHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/SuperPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/SuperPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/SuperVillain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/SuperVillain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "aaZoroG5"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/aaZoroG5/VillainsAndHeroesHashMap.git",
+    "accountId": "ed0c6e06-331c-464d-b9be-5f7e413a7d2d"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
 }]]></component>
@@ -49,4 +56,8 @@
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created a hashmap that logs rounds of a fight" />
+    <option name="LAST_COMMIT_MESSAGE" value="created a hashmap that logs rounds of a fight" />
+  </component>
 </project>

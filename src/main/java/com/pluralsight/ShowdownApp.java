@@ -5,7 +5,8 @@ public class ShowdownApp {
     public static void main(String[] args) {
 
         //print that a battle has started
-        System.out.println("A FIGHT BETWEEN SPIDER-MAN AND GREEN GOBLIN HAS STARTED");
+        System.out.println("=================== A FIGHT BETWEEN SPIDER-MAN AND GREEN GOBLIN HAS STARTED ===================");
+        System.out.println();
         //making a villain and hero battle
         //create a villain and hero object
         SuperVillain goblin = new SuperVillain("Green Goblin", 100, 20);
@@ -17,17 +18,12 @@ public class ShowdownApp {
             spidey.fight(goblin);
             goblin.fight(spidey);
 
-            //display health
-            System.out.println("Spider-Man's health: " + spidey.getHealth());
-            System.out.println("Green Goblin's health: " + goblin.getHealth());
-
             //create if statement that checks whether goblin or spidey is at 0 health
             if (goblin.health == 0) {
                 System.out.println("Spider-Man defended the city from the Goblin!");
             } else if (spidey.health == 0) {
                 System.out.println("Goblin got the best of Spidey!");
             }
-
         }
 
     }
